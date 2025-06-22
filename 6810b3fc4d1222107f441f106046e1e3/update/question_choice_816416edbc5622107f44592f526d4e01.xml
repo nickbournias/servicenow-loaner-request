@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>1</order>
+        <published_ref/>
+        <question display_value="What would you like to reserve?">0d64d2edbc5622107f44592f526d4ee0</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-22 19:50:28</sys_created_on>
+        <sys_id>816416edbc5622107f44592f526d4e01</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Mobile Phone</sys_name>
+        <sys_package display_value="Loaner Request" source="x_cdltd_loaner_req">6810b3fc4d1222107f441f106046e1e3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">6810b3fc4d1222107f441f106046e1e3</sys_scope>
+        <sys_update_name>question_choice_816416edbc5622107f44592f526d4e01</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-22 19:50:28</sys_updated_on>
+        <text>Mobile Phone</text>
+        <value>cmdb_ci_mobile_device</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=816416edbc5622107f44592f526d4e01"/>
+</record_update>
