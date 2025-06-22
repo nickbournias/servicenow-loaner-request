@@ -39,6 +39,30 @@
         <message_html><![CDATA[<p>Dear ${requested_for},</p>
 <p>Your reservation is scheduled to begin ${start_date}. Please return the item to the same location you picked it up by ${end_date}.</p>
 <p>You will receive a return reminder notification.</p>
+<p>&lt;mail_script&gt;</p>
+<div>
+<div>if (current.item_type == 'cmdb_ci_computer') {</div>
+<br />
+<div>var request = new sn_ws.RESTMessageV2();</div>
+<div>request.setEndpoint('<a href="https://nowlearning-nlinst02924119-6jxar-0001.lab.service-now.com/api/now/table/u_password_vault?sysparm_query=u_asset%3D'+">https://nowlearning-nlinst02924119-6jxar-0001.lab.service-now.com/api/now/table/u_password_vault?sysparm_query=u_asset%3D'+</a> current.cmdb_ci.asset_tag +'&amp;sysparm_limit=1');</div>
+<div>request.setHttpMethod('GET');</div>
+<br />
+<div>//Eg. UserName="admin", Password="admin" for this code sample.</div>
+<div>var user = 'admin';</div>
+<div>var password = '8m3KseL7A8Yk';</div>
+<br />
+<div>request.setBasicAuth(user, password);</div>
+<div>request.setRequestHeader("Accept", "application/json");</div>
+<br />
+<div>var response = request.execute();</div>
+<br />
+<div>var obj = JSON.parse(response.getBody());</div>
+<div>var myPass = obj.result[0].u_password;</div>
+<div>template.print('u_password: ' + myPass);</div>
+<br />
+<div>}</div>
+</div>
+<p>&lt;/mai_script&gt;</p>
 <p>&nbsp;</p>]]></message_html>
         <message_list/>
         <message_text/>
@@ -61,7 +85,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>db3bbdadbcd222107f44592f526d4ea4</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Loaner Item Pick Up</sys_name>
         <sys_overrides/>
         <sys_package display_value="Loaner Request" source="x_cdltd_loaner_req">6810b3fc4d1222107f441f106046e1e3</sys_package>
@@ -69,7 +93,7 @@
         <sys_scope display_value="Loaner Request">6810b3fc4d1222107f441f106046e1e3</sys_scope>
         <sys_update_name>sysevent_email_action_db3bbdadbcd222107f44592f526d4ea4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2025-06-22 18:03:22</sys_updated_on>
+        <sys_updated_on>2025-06-22 19:28:44</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>

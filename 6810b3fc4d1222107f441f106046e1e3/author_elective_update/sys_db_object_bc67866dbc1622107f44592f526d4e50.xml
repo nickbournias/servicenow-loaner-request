@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access>public</access>
+        <actions_access>false</actions_access>
+        <alter_access>false</alter_access>
+        <caller_access/>
+        <client_scripts_access>false</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>false</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>false</delete_access>
+        <is_extendable>false</is_extendable>
+        <label>Password Vault</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_cdltd_loaner_req_u_password_vault</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-22 18:54:55</sys_created_on>
+        <sys_id>bc67866dbc1622107f44592f526d4e50</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Password Vault</sys_name>
+        <sys_package display_value="Loaner Request" source="x_cdltd_loaner_req">6810b3fc4d1222107f441f106046e1e3</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">6810b3fc4d1222107f441f106046e1e3</sys_scope>
+        <sys_update_name>sys_db_object_bc67866dbc1622107f44592f526d4e50</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-22 18:54:55</sys_updated_on>
+        <update_access>false</update_access>
+        <user_role display_value="x_cdltd_loaner_req.admin" name="x_cdltd_loaner_req.admin">a8532521bc9222107f44592f526d4e73</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Request">6810b3fc4d1222107f441f106046e1e3</application>
+        <file_path/>
+        <instance_id>35401418975a26d0ac7671221153af58</instance_id>
+        <instance_name>nowlearning-nlinst02924119-6jxar-0001</instance_name>
+        <name>sys_db_object_bc67866dbc1622107f44592f526d4e50</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><is_extendable>false</is_extendable><label>Password Vault</label><live_feed_enabled>false</live_feed_enabled><name>x_cdltd_loaner_req_u_password_vault</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_name>sys_db_object</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-06-22 18:54:55</sys_created_on><sys_id>bc67866dbc1622107f44592f526d4e50</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Password Vault</sys_name><sys_package display_value="Loaner Request" source="x_cdltd_loaner_req">6810b3fc4d1222107f441f106046e1e3</sys_package><sys_policy/><sys_scope display_value="Loaner Request">6810b3fc4d1222107f441f106046e1e3</sys_scope><sys_update_name>sys_db_object_bc67866dbc1622107f44592f526d4e50</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-06-22 18:54:55</sys_updated_on><update_access>false</update_access><user_role display_value="x_cdltd_loaner_req.admin" name="x_cdltd_loaner_req.admin">a8532521bc9222107f44592f526d4e73</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+        <payload_hash>1324974612</payload_hash>
+        <record_name>Password Vault</record_name>
+        <reverted_from/>
+        <source>46e5fbb84d5222107f441f106046e1e8</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-22 18:54:56</sys_created_on>
+        <sys_id>27a70e6dbc1622107f44592f526d4e56</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19798fe5f5a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-22 18:54:56</sys_updated_on>
+        <type>Table</type>
+        <update_guid>2ba70e6dd0162210d8d81b2d2c128955</update_guid>
+        <update_guid_history>2ba70e6dd0162210d8d81b2d2c128955:1324974612</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-06-22 19:10:25</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>8cd099d990644434b860f71fe065d7e1</sys_id>
+        <sys_metadata>bc67866dbc1622107f44592f526d4e50</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Password Vault</sys_name>
+        <sys_package display_value="Loaner Request" source="x_cdltd_loaner_req">6810b3fc4d1222107f441f106046e1e3</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">6810b3fc4d1222107f441f106046e1e3</sys_scope>
+        <sys_scope_delete display_value="">074f0376ad3c465485ad8ae3e2972084</sys_scope_delete>
+        <sys_update_name>sys_db_object_bc67866dbc1622107f44592f526d4e50</sys_update_name>
+        <sys_update_version display_value="sys_db_object_bc67866dbc1622107f44592f526d4e50">27a70e6dbc1622107f44592f526d4e56</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-06-22 19:10:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
